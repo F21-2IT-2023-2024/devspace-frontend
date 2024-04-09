@@ -13,8 +13,12 @@ function App() {
       <LangTags>
         <LangTag text="JavaScript" />
         <LangTag text="Python" />
+        <LangTag text="Java" />
+        <LangTag text="CSS" />
+        <LangTag text="HTML" />
+        <LangTag text="TypeScript" />
+        <LangTag text="C#" />
       </LangTags>
-      
     </>
   );
 }
