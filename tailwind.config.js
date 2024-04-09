@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      concertOne: ['Concert One', 'sans-serif'],
+    }
   },
   plugins: [],
 }
