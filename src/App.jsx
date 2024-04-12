@@ -3,6 +3,10 @@ import Title from './components/Title';
 import SearchBar from './components/SearchBar';
 import LangTag from './components/LangTag';
 import LangTags from './components/LangTags';
+import SnippetGrid from './components/SnippetGrid';
+import Snippet from './components/Snippet';
+import SnippetCode from './components/SnippetCode';
+import Heart from './components/Heart';
 
 
 function App() {
@@ -19,6 +23,40 @@ function App() {
         <LangTag text="TypeScript" />
         <LangTag text="C#" />
       </LangTags>
+      <SnippetGrid>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+        <Snippet>
+          <Heart />
+          <SnippetCode />
+        </Snippet>
+      </SnippetGrid>
     </>
   );
 }
