@@ -28,34 +28,6 @@ function App() {
           <Heart />
           <SnippetCode />
         </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
-        <Snippet>
-          <Heart />
-          <SnippetCode />
-        </Snippet>
       </SnippetGrid>
     </>
   );
