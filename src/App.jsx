@@ -11,7 +11,7 @@ import Heart from './components/Heart';
 
 function App() {
   return (
-    <>
+    <div className='bg-primary'>
       <Title />
       <SearchBar />
       <LangTags>
@@ -29,7 +29,7 @@ function App() {
           <SnippetCode />
         </Snippet>
       </SnippetGrid>
-    </>
+    </ div>
   );
 }
 
