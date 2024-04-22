@@ -1,6 +1,6 @@
 const SnippetCode = () => {
     return (
-        <pre className="text-gray-800">
+        <pre className="">
         {`body {\n  color: red;\n}`}
         </pre>
     )
