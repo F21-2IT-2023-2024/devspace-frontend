@@ -1,4 +1,5 @@
 import './App.css';
+import AddSnippetBtn from './components/AddSnippetBtn';
 import Title from './components/Title';
 import SearchBar from './components/SearchBar';
 import LangTag from './components/LangTag';
@@ -12,6 +13,7 @@ import Heart from './components/Heart';
 function App() {
   return (
     <div className='text-secondary'>
+      <AddSnippetBtn />
       <Title />
       <SearchBar />
       <LangTags>
