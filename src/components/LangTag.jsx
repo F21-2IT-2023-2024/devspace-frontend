@@ -9,7 +9,7 @@ const LangTag = ({ text }) => {
     }
 
     return (
-        <p onClick={toggleSlected} className={`p-4 rounded-lg bg-gray-50 mx-2 hover:cursor-pointer ${isSelected ? 'ring ring-gray-300' : ''}`} >{text}</p>
+        <p onClick={toggleSlected} className={`p-4 rounded-lg bg-secondary mx-2 hover:cursor-pointer ${isSelected ? 'bg-secondary-accent' : ''}`} >{text}</p>
     )
 }
 
