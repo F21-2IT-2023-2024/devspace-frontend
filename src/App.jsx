@@ -10,7 +10,7 @@ import Snippet from './components/Snippet';
 import SnippetCode from './components/SnippetCode';
 import Heart from './components/Heart';
 
-function App() {
+export default function App() {
   return (
     <div className='text-secondary'>
       <AddSnippetBtn />
@@ -35,5 +35,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

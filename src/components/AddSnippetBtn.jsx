@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from './AddSnippetModal';
-function AddSnippetBtn() {
+
+export default function AddSnippetBtn() {
   const [showModal, setShowModal] = useState(false);
   const handleClick = () => {
     setShowModal(!showModal);
@@ -16,4 +17,3 @@ function AddSnippetBtn() {
     </div>
   );
 }
-export default AddSnippetBtn;

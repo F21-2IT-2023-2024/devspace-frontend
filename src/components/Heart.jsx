@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Heart() {
+export default function Heart() {
 
     const [isLiked, setIsLiked] = useState(false);
 
@@ -16,5 +16,3 @@ function Heart() {
         </>
     )
 }
-
-export default Heart;

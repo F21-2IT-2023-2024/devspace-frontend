@@ -1,4 +1,4 @@
-function Title() {
+export default function Title() {
     return ( 
         <div className="flex flex-col items-center justify-center mt-10">
             <h1 className="text-3xl">Welcome to</h1>
@@ -6,5 +6,3 @@ function Title() {
         </div>
     )
 }
-
-export default Title;

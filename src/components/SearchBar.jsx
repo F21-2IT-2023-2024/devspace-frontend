@@ -1,4 +1,4 @@
-function SearchBar() {
+export default function SearchBar() {
     return ( 
         <form className="max-w-md mx-auto mt-12">
             <div>
@@ -11,5 +11,3 @@ function SearchBar() {
         </form>
     )
 }
-
-export default SearchBar;
