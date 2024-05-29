@@ -10,7 +10,7 @@ export default function AddSnippetModal({ onClose }) {
         <textarea 
           name="snippetField" 
           id="snippetContent" 
-          rows="4" cols="30" 
+          rows="12" cols="30" 
           placeholder='Enter your snippet here...'
           className='resize-none bg-primary-900 text-secondary p-2 rounded-sm w-full focus:outline-none text-xs placeholder:text-sm placeholder:italic'>
         </textarea>
