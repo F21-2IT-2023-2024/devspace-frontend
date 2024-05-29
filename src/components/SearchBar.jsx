@@ -2,7 +2,7 @@ export default function SearchBar() {
     return ( 
         <form className="max-w-md mx-auto mt-12">
             <div>
-                <svg xmlns="http://www.w3.org/2000/svg" className="relative w-6 h-6 text-gray-400 top-10 left-3" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="relative w-6 h-6 text-primary-200 top-10 left-3" fill="none" stroke="currentColor" strokeWidth="2">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
